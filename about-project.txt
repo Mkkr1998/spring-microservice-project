@@ -1,0 +1,11 @@
+Product_Service:
+                Service:
+                        Create_Product
+                        Get_All_Product
+                Database: MongoDB
+                        Document: Product
+                API:
+                   Post: Create_Product
+                   Get:  Get_All_Product
+Order_Service:
+                Service:
